@@ -1,0 +1,13 @@
+# Laurent Jutras-Dube
+# Gene-free model with a SNIC bifurcation
+# Slightly asymmetric basins of attraction
+#
+init y=1 z=0
+par g=0
+y'=g*(y*(1-(y^2+z^2)^.5)-z)-(1-g)*(y-0.05)*(1-y)*(-1-y)
+z'=g*(z*(1-(y^2+z^2)^.5)+y)-(1-g)*z
+@ total=6.28319
+@ dt=.05
+@ xp=y, yp=z, xlo=-2, xhi=2, ylo=-2, yhi=2
+@ method=cvode, tol=1e-8, atol=1e-8
+done
