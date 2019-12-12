@@ -1,0 +1,13 @@
+# Laurent Jutras-Dube
+# 3-gene Model 2, asymmetry #2
+#
+init x=1 y=0 z=0
+par g=1 s=0.4 n=5
+x'=g*(1/(1+(y/s)**n))+(1-g)*(1/(1+(y/0.32)**n))*(1/(1+(z/0.32)**n))-x
+y'=g*(1/(1+(z/s)**n))+(1-g)*(1/(1+(z/0.36)**n))*(1/(1+(x/0.36)**n))-y
+z'=g*(1/(1+(x/s)**n))+(1-g)*(1/(1+(x/s)**n))*(1/(1+(y/s)**n))-z
+@ total=3.65
+@ dt=.05
+@ xp=x, yp=y, xlo=0, xhi=2, ylo=0, yhi=2
+@ method=cvode, tol=1e-8, atol=1e-8
+done
