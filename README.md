@@ -53,7 +53,9 @@ Source codes, figure and movies for the paper "Dual-Regime Geometry for Embryoni
     This notebook performs deterministic simulations of the model for Tribolium segmentation from [5]. It also generates flow plots and computes the speed of the cells in phase space. Figure 1--figure supplement 2 shows the results obtained with this notebook.
     
 
-####    
+####      
+
+####      
 
 **References**
 
