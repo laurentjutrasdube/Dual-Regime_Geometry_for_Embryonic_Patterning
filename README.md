@@ -1,4 +1,4 @@
-# Dual-Regime_Geometry_for_Embryonic_Patterning
+# Geometric models for robust encoding of dynamical information into embryonic patterns
 Source codes, figure and movies for the paper "Dual-Regime Geometry for Embryonic Patterning". All codes are written in the `python3` programming language (except for two `Mathematica` notebooks). This repository also contains folders with the source data files, as well as the source codes used to generate the data files.
 
 
