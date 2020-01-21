@@ -4,7 +4,7 @@ Source codes, figure and movies for the paper "Geometric models for robust encod
 
 - **3-gene\_det.ipynb**
 
-    This notebook performs deterministic simulations of the symmetric 3-gene Models 1, 2, 3 and 4. It also performs a bifurcation analysis of these models using the data found in the `XPPAUTO_data` folder, which also contains the `.ode` files used to generate the data with the XPP AUTO software [1]. Figure 2 and Figure 2--figure supplement 1 show the results obtained with this notebook.
+    This notebook performs deterministic simulations of the symmetric 3-gene Models 1, 2, 3 and 4. It also performs a bifurcation analysis of these models using the data found in the `XPPAUTO_data` folder, which also contains the `.ode` files used to generate the data with the XPP AUTO software [1]. Figure 2 and Figure 2--figure supplements 1 and 2 show the results obtained with this notebook.
     
     
 - **3-gene\_stoch.ipynb**
