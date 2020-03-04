@@ -1,5 +1,5 @@
 # Geometric models for robust encoding of dynamical information into embryonic patterns
-Source codes, figure and movies for the paper "Geometric models for robust encoding of dynamical information into embryonic patterns". All codes are written in the `python3` programming language (except for two `Mathematica` notebooks). This repository also contains folders with the source data files, as well as the source codes used to generate the data files.
+Source codes, figures and movies for the paper "Geometric models for robust encoding of dynamical information into embryonic patterns". All codes are written in the `python3` programming language (except for two `Mathematica` notebooks). This repository also contains folders with the source data files, as well as the source codes used to generate the data files.
 
 
 - **3-gene\_det.ipynb**
