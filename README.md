@@ -24,7 +24,7 @@ Source codes, figures and movies for the paper "Geometric models for robust enco
     
 - **Gene-free\_stoch.ipynb**
 
-    This notebook performs stochastic simulations of the symmetric gene-free Models 1 and 2. It also generates the mutual information plots using the data found in the `Mutual_info_data` folder. Figure 4--figure supplement 2 shows the results obtained with this notebook.
+    This notebook performs stochastic simulations of the symmetric gene-free Models 1 and 2. It also generates the mutual information plot using the data found in the `Mutual_info_data` folder. Figure 4--figure supplement 2 shows the results obtained with this notebook.
     
     
     
