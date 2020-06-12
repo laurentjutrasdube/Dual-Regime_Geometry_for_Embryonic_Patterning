@@ -1,0 +1,12 @@
+# Laurent Jutras-Dube
+# Gene-free model without the intermediate term, and with cubed weights
+#
+init x=1 y=0
+par g=0
+x'=g^3*(x*(1-(x^2+y^2)^.5)-y)+(1-g)^3*x*(1-x^2)
+y'=g^3*(y*(1-(x^2+y^2)^.5)+x)-(1-g)^3*y
+@ total=6.28319
+@ dt=.05
+@ xp=x, yp=y, xlo=-2, xhi=2, ylo=-2, yhi=2
+@ method=cvode, tol=1e-8, atol=1e-8
+done

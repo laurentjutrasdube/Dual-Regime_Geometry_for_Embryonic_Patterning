@@ -1,5 +1,5 @@
 # Laurent Jutras-Dube
-# Gene-free model with a Hopf bifurcation
+# Gene-free model with a supercritical Hopf bifurcation
 # Fixed points outside the limit cycle
 #
 init y=1 z=0

@@ -1,12 +1,13 @@
 # Laurent Jutras-Dube
-# Gene-free model with a SNIC bifurcation
+# Gene-free model with a SNIC bifurcation (Model 2)
+# Gene-free model without the intermediate term, and with linear weights
 #
-init x=1 y=0
+init y=1 z=0
 par g=0
-x'=g*(x*(1-(x^2+y^2)^.5)-y)+(1-g)*x*(1-x^2)
-y'=g*(y*(1-(x^2+y^2)^.5)+x)-(1-g)*y
+y'=g*(y*(1-(y^2+z^2)^.5)-z)+(1-g)*y*(1-y^2)
+z'=g*(z*(1-(y^2+z^2)^.5)+y)-(1-g)*z
 @ total=6.28319
 @ dt=.05
-@ xp=x, yp=y, xlo=-2, xhi=2, ylo=-2, yhi=2
+@ xp=y, yp=z, xlo=-2, xhi=2, ylo=-2, yhi=2
 @ method=cvode, tol=1e-8, atol=1e-8
 done

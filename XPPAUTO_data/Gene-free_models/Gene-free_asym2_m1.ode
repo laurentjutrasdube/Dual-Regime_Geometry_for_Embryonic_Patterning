@@ -1,5 +1,5 @@
 # Laurent Jutras-Dube
-# Gene-free model with a Hopf bifurcation
+# Gene-free model with a supercritical Hopf bifurcation
 # Asymmetric basins of attraction
 #
 init y=1 z=0
