@@ -4,12 +4,12 @@ Source codes, figures and movies for the paper "Geometric models for robust enco
 
 - **3-gene\_det.ipynb**
 
-    This notebook performs deterministic simulations of the symmetric 3-gene Models 1, 2, 3 and 4. It also performs a bifurcation analysis of these models using the data found in the `XPPAUTO_data` folder, which also contains the `.ode` files used to generate the data with the XPP AUTO software [1]. Figure 2 and Figure 2--figure supplements 1 and 2 show the results obtained with this notebook.
+    This notebook performs deterministic simulations of the symmetric 3-gene Models 1 and 2, and deterministic simulations of the 3-gene Models 1 and 2 with Hill functions for the weights of the dynamic and static modules. It also performs a bifurcation analysis of these models using the data found in the `XPPAUTO_data` folder, which also contains the `.ode` files used to generate the data with the XPP AUTO software [1]. Figure 2, Figure 2--figure supplements 1 and 2, and Figure 7--figure supplement 2 show the results obtained with this notebook.
     
     
 - **3-gene\_stoch.ipynb**
 
-    This notebook performs stochastic simulations of the symmetric 3-gene Models 1, 2, 3 and 4. It also generates plots of the mutual information using the data found in the `Mutual_info_data` folder, which also contains the `python` codes used to generate the data. Figure 3 and Figure 3--figure supplement 1 show the results obtained with this notebook.
+    This notebook performs stochastic simulations of the symmetric 3-gene Models 1, and 2, and stochastic simulations of the 3-gene Models 1 and 2 with Hill functions for the weights of the dynamic and static modules. It also generates plots of the mutual information using the data found in the `Mutual_info_data` folder, which also contains the `python` codes used to generate the data. Figure 3 and Figure 3--figure supplement 1 show the results obtained with this notebook.
     
     
 - **3-gene\_asym.ipynb**
@@ -19,12 +19,12 @@ Source codes, figures and movies for the paper "Geometric models for robust enco
     
 - **Gene-free\_det.ipynb**
 
-    This notebook performs deterministic simulations of the symmetic gene-free Models 1 and 2. It also performs a bifurcation analysis of these models and generates flow plots using the data found in the `XPPAUTO_data` and `Mathematica_data` folders, respectively. Figure 4, Figure 4--figure supplement 1 and Figure 4--movie supplements 1 and 2 show the results obtained with this notebook.
+    This notebook performs deterministic simulations of the symmetic gene-free Models 1, 2, 3 and 4. It also performs a bifurcation analysis of these models and generates flow plots using the data found in the `XPPAUTO_data` and `Mathematica_data` folders, respectively. Figure 4, Figure 4--figure supplements 1, 2, 3 and 4, Figure 4--movie supplements 1, 2, 3 and 4, and Figure 7--figure supplement 2 show the results obtained with this notebook.
     
     
 - **Gene-free\_stoch.ipynb**
 
-    This notebook performs stochastic simulations of the symmetric gene-free Models 1 and 2. It also generates the mutual information plot using the data found in the `Mutual_info_data` folder. Figure 4--figure supplement 2 shows the results obtained with this notebook.
+    This notebook performs stochastic simulations of the symmetric gene-free Models 1, 2, 3 and 4. It also generates the mutual information plot using the data found in the `Mutual_info_data` folder. Figure 4--figure supplement 5 shows the results obtained with this notebook.
     
     
     
